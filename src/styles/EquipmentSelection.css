@@ -1,0 +1,25 @@
+/* src/styles/pages/EquipmentSelection.module.css */
+.equipment-selection {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .equipment-content {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .equipment-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  

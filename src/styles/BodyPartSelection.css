@@ -1,0 +1,25 @@
+/* src/styles/pages/BodyPartSelection.module.css */
+.body-part-selection {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .body-part-content {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .body-part-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
