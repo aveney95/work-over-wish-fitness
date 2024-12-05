@@ -1,10 +1,8 @@
-// src/components/Footer.jsx
-import React from 'react';
-import styles from '../styles/Footer.css';
+import  '../styles/Footer.css';
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className= "footer">
       <p>&copy; {new Date().getFullYear()} Work Over Wish Fitness. All rights reserved.</p>
     </footer>
   );

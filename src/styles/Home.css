@@ -10,7 +10,8 @@
   }
   .home-content {
     margin-top: 20px;
-  }
+    }
+
   h2 {
     margin-bottom: 20px;
   }
@@ -35,9 +36,9 @@
     gap: 10px;
   }
   .option:hover {
-    background-color: #E0F7FA;
+    background-color: rgb(208, 82, 19);
     border-color: #00ACC1;
-    color: #006064;
+    color: #0b0b0b;
   }
   .icon-placeholder {
     font-size: 24px;

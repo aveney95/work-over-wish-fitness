@@ -1,4 +1,98 @@
-/* src/styles/pages/AllExercises.module.css */
+/* .page-container {
+  display: block;
+   visibility: visible; 
+  position: relative;
+  z-index: 1000;}  */
+ 
+
+/* body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+} */
+
+
+.all-exercises {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw; 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+
+.exercise-content {
+  text-align: center;
+  padding: 2rem;
+  width: 100%; 
+}
+
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #030906;
+  margin: 0 auto; 
+  padding: 1rem; 
+  text-align: center;
+  border: 3px solid #d7420b; 
+  display: inline-block; 
+  position: relative; 
+}
+
+
+
+.exercise-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+  width: 100%; 
+  padding: 0 1rem;
+  box-sizing: border-box; 
+}
+
+
+
+/* src/styles/pages/AllExercises.module.css */ 
+/* .all-exercises {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%; 
+  margin: 0; 
+  box-sizing: border-box; 
+}
+
+.exercise-content {
+  text-align: center;
+  padding: 2rem;
+  width: 100%; 
+}
+
+h2 {
+  font-size: 2rem;
+  color: #333;
+  margin: 0; 
+}
+
+.exercise-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+  width: 100%;
+  padding: 0 1rem; 
+  box-sizing: border-box; 
+}
+
+
+
+/* src/styles/pages/AllExercises.module.css
 .all-exercises {
     display: flex;
     flex-direction: column;
@@ -20,5 +114,5 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
     margin-top: 2rem;
-  }
+  } */
   

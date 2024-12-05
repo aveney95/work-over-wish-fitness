@@ -1,26 +1,33 @@
-/* src/styles/components/ExerciseCard.module.css */
+
+
 .exercise-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 1rem;
-    text-align: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .exercise-image {
-    width: 100%;
-    height: auto;
-    border-radius: 4px;
-    margin-bottom: 1rem;
-  }
-  
-  h3 {
-    font-size: 1.2rem;
-    color: #333;
-  }
-  
-  p {
-    font-size: 0.9rem;
-    color: #666;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 20px;
+}
+
+.exercise-link {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 1.2rem;
+  border: 3px solid #333;
+  background-color: rgb(208, 82, 19);
+  box-shadow: 2px 4px 10px grey;
+  padding: 10px 15px;
+  border-radius: 12.5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.exercise-link:hover {
+  background-color: #333;
+  color: white;
+}

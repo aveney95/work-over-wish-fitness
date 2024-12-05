@@ -1,25 +1,41 @@
-/* src/styles/pages/BodyPartSelection.module.css */
-.body-part-selection {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
-  .body-part-content {
-    text-align: center;
-    padding: 2rem;
-  }
-  
-  h2 {
-    font-size: 2rem;
-    color: #333;
-  }
-  
-  .body-part-options {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-top: 2rem;
-  }
-  
+.body-part-icons {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  gap: 1rem;
+}
+
+.body-part-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  border: 2px solid transparent;
+  border-color: rgb(208, 82, 19);
+  border-radius: 8px;
+  background: rgb(208, 82, 19);
+  box-shadow: 2px 4px 10px grey;
+  color: white;
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 200;
+  font-style: bold;
+  cursor: pointer;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.body-part-icon:hover {
+  background: #333;
+  border-color: #333;
+}
+
+.body-part-icon.active {
+  border-color: #333;
+  background: #333;
+}
+
+.body-part-icon span {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}

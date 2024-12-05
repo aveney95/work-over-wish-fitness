@@ -1,0 +1,40 @@
+.bodypart-exercise-item {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 12.5px;
+    background-color: lightgrey;
+    box-shadow: 2px 4px 10px grey;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .bodypart-exercise-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .exercise-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 1rem;
+    border-radius: 8px;
+  }
+  
+  .exercise-details {
+    flex: 1;
+  }
+  
+  .exercise-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 0 0.5rem;
+  }
+  
+  .exercise-target,
+  .exercise-equipment {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  

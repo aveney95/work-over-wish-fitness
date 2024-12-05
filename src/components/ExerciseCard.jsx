@@ -1,22 +1,24 @@
-// src/components/ExerciseCard.jsx
-import React from 'react';
-import PropTypes from 'prop-types';
-import styles from '../styles/ExerciseCard.css';
 
-const ExerciseCard = ({ name, imageUrl, description }) => {
-  return (
-    <div className={styles.exerciseCard}>
-      <img src={imageUrl} alt={name} className={styles.exerciseImage} />
-      <h3>{name}</h3>
-      <p>{description}</p>
-    </div>
-  );
-};
+import { Link } from 'react-router-dom';
+import '../styles/ExerciseCard.css';
 
-ExerciseCard.propTypes = {
-  name: PropTypes.string.isRequired,
-  imageUrl: PropTypes.string.isRequired,
-  description: PropTypes.string,
+const ExerciseCard = () => {
+    return (
+        <div className="exercise-card">
+            <Link to="/all-exercises" className="exercise-link">
+                All Exercises
+            </Link>
+            <Link to="/body-part-selection" className="exercise-link">
+                Body Part Selection
+            </Link>
+            <Link to="/equipment-selection" className="exercise-link">
+                Equipment Selection
+            </Link>
+            <Link to="/muscle-selection" className="exercise-link">
+                Muscle Selection
+            </Link>
+        </div>
+    );
 };
 
 export default ExerciseCard;
